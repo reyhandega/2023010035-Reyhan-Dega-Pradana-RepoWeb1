@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>profile page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Hai Kid's</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <header>
-        <p><img src="img/kiri1.png" alt="kiri"> Hai Kid's <img src="img/kanan2.png" alt="kanan"></p>
+        <p><img src="assets/img/kiri1.png" alt="kiri"> Hai Kid's <img src="assets/img/kanan2.png" alt="kanan"></p>
     </header>
     <nav class="navbar">
         <ul>
@@ -20,21 +20,22 @@
             <li style="float:right; margin-right: 3px;"><a class="active" href="login.html">Login</a></li>
           </ul>
     </nav>
-        <div class="profil">
-            <h2>My Profile</h2>
-            <img src="img/foto profil-1.png" alt="profil">
-            <p>Nama : Reyhan Dega Pradana</p>
-            <p>TTL : Semarang, 27 Februari 2024</p>
-            <p>Alamat : Ngadirgo, Mijen, Kota Semarang</p>
-            <p>Status : Mahasiswa</p>
-            <p>NIM : 2023010035</p>
-            <p>Prodi : Rekayasa Perangkat Lunak</p>
-            <p>Semester : 3</p>
-            <p>Kelas : RPL B 2023</p>
-        </div>
+    <div class="login">
+        <h2>Login</h2>
+        <form>
+            <label for="Username">Username :</label><br>
+            <input type="text" id="Username"><br><br>
+
+            <label for="password">Password :</label><br>
+            <input type="password" id="password"><br><br>
+
+            <button class="button" onclick="alert('Anda Telah berhasil Masuk')">Sign in</button>
+        </form>
+        
+    </div>
     <footer>
         <p>
-        <img src="img/LOGO POLIBANG.png" alt="Logo">
+        <img src="assets/img/LOGO POLIBANG.png" alt="Logo">
         2023010035 Reyhan Dega Pradana Copyright © 2024
         </p>
     </footer>
