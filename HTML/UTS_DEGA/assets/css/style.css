@@ -1,0 +1,209 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+
+header {
+    background-color: rgb(52, 95, 122);
+    padding: 40px 0;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    font-family: poppins;
+    font-size: 70px;
+    margin: 5px;
+}
+
+header img {
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #304563;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+    background-color: #fe7a2d;
+}
+
+.active {
+    background-color: #fe7a2d;
+}
+
+
+
+
+#utama {
+    height: 600px;
+    margin-left: 50px;
+}
+
+.home {
+    padding: 20px;
+    text-align: left;
+    font-family: poppins;
+    font-size: 50px;
+}
+
+.home2 {
+    margin-left: 20px;
+    font-family: poppins;
+    margin-top: 0;
+}
+
+.home2 p{
+    margin: 10px; 
+}
+
+.home2 img {
+    height: 200px;
+    margin-right: 30px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+
+
+.profil {
+    height: 850px;
+    text-align: center;
+}
+
+.profil h2 {
+    text-align: center;
+    font-family: poppins;
+}
+.profil img {
+    align-items: center;
+    height: 300px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding: 10px;  
+}
+
+.profil p {
+    text-align: left;
+    font-family: poppins;
+    margin-left: 600px;
+}
+
+
+
+
+
+
+.hobiku {
+    text-align: center;
+    font-family: poppins;
+    margin: 20px;
+}
+.content {
+    height: 500px;
+    padding: 20px;
+    text-align: left;
+    margin-left: 50px;
+}
+.studi {
+    height: 700px;
+    padding: 20px;
+    text-align: center;
+    font-family: poppins ;
+}
+
+
+
+
+
+
+.studi p {
+    margin-bottom: 70px;
+}
+.studi img{
+    height: 400px;
+    margin-left: 50px;
+}
+
+
+
+
+
+.login {
+    height: 400px;
+}
+
+.login h2 {
+    text-align: center;
+}
+
+.login form {
+    margin-left: 675px;
+}
+
+
+
+
+
+.Register {
+    height: 400px;
+}
+.Register h2 {
+    text-align: center;
+}
+
+.Register form {
+    margin-left: 675px;
+}
+
+
+
+
+
+footer {
+    background: #304563;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px 0;
+
+}
+
+footer img {
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
